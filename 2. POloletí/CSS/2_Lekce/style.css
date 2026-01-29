@@ -1,0 +1,22 @@
+div {
+    background: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.info {
+    color: lightblue;
+}
+.warning {
+    color: red;
+    font-weight: bold;
+}
+#warning {
+    color: red;
+    font-weight: bold;
+}
+p:last-child{
+    color: purple;
+}
