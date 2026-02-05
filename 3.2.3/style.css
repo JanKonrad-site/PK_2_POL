@@ -79,3 +79,29 @@ section {
     place-items: center;
     border: 5px solid brown;
 }
+
+.box {
+    background: lightgreen;
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+}
+
+.demo {
+    background: lightpink;
+    height: 50px;
+    width: 200px;
+    padding: 50px;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    margin: 20px auto;
+    border: 10px solid black;
+    display: grid;
+    place-items: center;
+    box-sizing: content-box;
+}
