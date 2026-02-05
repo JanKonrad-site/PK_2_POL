@@ -105,3 +105,16 @@ section {
     place-items: center;
     box-sizing: content-box;
 }
+.content-box, .border-box {
+  width: 200px;
+  height: 50px;
+  background: lightblue;
+  margin: 8px 0;
+  padding: 20px;
+  border: 10px solid steelblue;
+  display: grid; place-items: center;
+}
+
+/* rozdíl v režimu výpočtu */
+.content-box { box-sizing: content-box; }  /* výchozí chování */
+.border-box  { box-sizing: border-box;  }  /* stabilní velikost */
