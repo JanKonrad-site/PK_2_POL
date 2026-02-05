@@ -44,3 +44,38 @@ section {
     background: lightgreen;
 
 }
+.panel {
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-width: 10px;/* tloušťka */
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 16px;
+}
+
+.mix {
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-width: 10px;/* tloušťka */
+    border-color: gray;
+    border-left-style: dashed;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-right-color: brown;
+     margin-bottom: 16px;
+}
+.card {
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border: 5px solid brown;
+}
