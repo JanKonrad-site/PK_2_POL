@@ -28,3 +28,13 @@ a, button, strong {
     height: 80px;
 
 }
+.radius-box {
+    height: 200px;
+    width: 200px;
+    background:green;
+    border: 6px solid rgb(61, 177, 76);
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
