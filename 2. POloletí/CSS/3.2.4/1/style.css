@@ -1,0 +1,30 @@
+h2 {
+    background: blue;
+}
+div {
+    background-color: blue;
+}
+p {
+    background: blue;
+}
+ul {
+    background: blue;
+}
+
+a, button, strong {
+    background: red;
+}
+
+.d1 {
+    display: block;
+    border: 2px solid black;
+    background: rgb(146, 146, 188);
+    width: 50%;
+}
+.b1 {
+    display: inline-block;
+    background: green;
+    width: 280px;
+    height: 80px;
+
+}
