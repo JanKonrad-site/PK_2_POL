@@ -50,3 +50,13 @@ h3 {
 p {
     font-size: 1rem;
 }
+.center-box {
+    display: grid;
+    width: 50%;
+    height: 300px;
+    background: steelblue;
+    margin: 0 auto;
+    place-items: center;
+
+}
+
